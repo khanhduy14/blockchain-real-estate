@@ -15,11 +15,13 @@ Trong file database.js --> database : <tên schema>
 * Chạy
 
 Step 1 : Chạy local ethereum với Ganache
-npm run start:eth
+  npm run start:eth
+
 Step 2 : Compile Smart Contracts
-cd ethereum
-truffle compile
-truffle migrate
+  cd ethereum
+  truffle compile
+  truffle migrate
+
 Step 3 : Chạy
-npm start
+  npm start
 
